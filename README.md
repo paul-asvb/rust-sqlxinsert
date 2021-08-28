@@ -6,7 +6,9 @@ https://crates.io/crates/sqlxinsert
 
 run app against local postgres instance
 
-´´´bash
+```bash
 docker run --name some-postgres  -p 5432:5432 -e POSTGRES_HOST_AUTH_METHOD=trust -d postgres
+```
+```bash
 cargo run
-´´´
+```
